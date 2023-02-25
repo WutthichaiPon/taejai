@@ -139,7 +139,7 @@ class ProjectDetailsPage extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                // padding: const EdgeInsets.all(16),
+
                 child: Row(
                   children: [
                     Expanded(
@@ -187,7 +187,6 @@ class ProjectDetailsPage extends StatelessWidget {
                       child: SizedBox(
                         height: 30,
                         width: 400,
-
                         child: ElevatedButton.icon(
                           style: ElevatedButton.styleFrom(
                             primary: Colors.red,
@@ -204,7 +203,7 @@ class ProjectDetailsPage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: SizedBox(
-                        height: 30, //height of button
+                        height: 30,
                         width: 400,
                         child: ElevatedButton.icon(
                           style: ElevatedButton.styleFrom(
